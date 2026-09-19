@@ -2,9 +2,10 @@
   "schemaVersion": "1.0",
   "updated": "2026-09-19",
   "stage": 1,
-  "state": "foundation-in-progress",
+  "state": "foundation-contracts-implemented-verification-pending",
   "release": {"mainInstall": 1,"status":"not-ready","userTestingAllowed":false},
   "knownGates": ["revit-host-build","chair-visual-qa","manifest-contracts","diagnostic-routing","support-package","installer-integrity"],
-  "lastCoherentBatch": "initial-governance-and-architecture",
+  "lastCoherentBatch": "sdk-independent-foundation-contracts",
+  "testExecution": {"status":"not-executed","reason":"No .NET SDK execution tool is available in this API-only session."},
   "content": {"approvedAssets": 0,"quarantinedAssets": 0,"activeV1Categories": [],"packs": []}
 }

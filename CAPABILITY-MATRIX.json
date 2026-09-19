@@ -3,7 +3,10 @@
   "releasePolicy": {"mainInstallers": 3,"optionalAcceptancePatch": 1,"experimentalInstallers": 0},
   "host": {"product":"Revit","version":"2027","platform":"Windows x64"},
   "stage1": {
-    "runtimeFoundation": "planned",
+    "runtimeFoundation": "contracts-implemented-not-executed",
+    "moduleRegistry": "implemented-not-executed",
+    "manifestValidation": "implemented-not-executed",
+    "diagnosticRouting": "implemented-not-executed",
     "chairVerticalSlice": "not-ready",
     "libraryQualityGate": "not-ready",
     "internalReleaseGate": "not-ready",
