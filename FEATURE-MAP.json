@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "product": "VIZORA for Revit",
+  "host": "Autodesk Revit 2027",
+  "status": "Stage 1 foundation in progress",
+  "features": [
+    {"id":"Library","layer":"Domain/Application/Infrastructure/UI/Revit","status":"active","stage":1,"errorPrefix":"LIB-"},
+    {"id":"Selection","layer":"Application/Revit/UI","status":"contract-only","stage":1,"errorPrefix":"SEL-"},
+    {"id":"Representation","layer":"Domain/Application/Revit/UI","status":"contract-only","stage":1,"errorPrefix":"REP-"},
+    {"id":"Kitchen","layer":"Domain/Application/Revit/UI","status":"planned","stage":2,"errorPrefix":"KIT-"},
+    {"id":"Rooms","layer":"Domain/Application/Revit/UI","status":"planned","stage":2,"errorPrefix":"ROM-"},
+    {"id":"Relationships","layer":"Domain/Application/Revit/UI","status":"planned","stage":2,"errorPrefix":"REL-"},
+    {"id":"Export","layer":"Application/Revit/UI","status":"planned","stage":3,"errorPrefix":"EXP-"},
+    {"id":"CustomAssets","layer":"Domain/Application/Infrastructure/Revit/UI","status":"planned","stage":2,"errorPrefix":"CUS-"},
+    {"id":"SharedLibrary","layer":"Infrastructure/Application/UI","status":"planned","stage":3,"errorPrefix":"SHR-"},
+    {"id":"Settings","layer":"Application/Infrastructure/UI","status":"active","stage":1,"errorPrefix":"SET-"},
+    {"id":"Diagnostics","layer":"Application/Infrastructure/UI","status":"active","stage":1,"errorPrefix":"DIA-"},
+    {"id":"TestFeedback","layer":"Application/Infrastructure/UI","status":"active","stage":1,"errorPrefix":"TST-"}
+  ]
+}

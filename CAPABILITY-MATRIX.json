@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "releasePolicy": {"mainInstallers": 3,"optionalAcceptancePatch": 1,"experimentalInstallers": 0},
+  "host": {"product":"Revit","version":"2027","platform":"Windows x64"},
+  "stage1": {
+    "runtimeFoundation": "planned",
+    "chairVerticalSlice": "not-ready",
+    "libraryQualityGate": "not-ready",
+    "internalReleaseGate": "not-ready",
+    "userTesting": "blocked-until-main-install-1-gates-pass"
+  },
+  "contentPacks": ["Core-Seating","Core-Tables","Core-Bedroom","Core-Kitchen","Core-Appliances","Core-Lighting"],
+  "representations": ["2D Plan","Basic 3D","Full 3D"]
+}

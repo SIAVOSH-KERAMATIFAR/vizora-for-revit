@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><IsPackable>false</IsPackable><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Vizora.Domain/Vizora.Domain.csproj" /><ProjectReference Include="../Vizora.Application/Vizora.Application.csproj" /><ProjectReference Include="../Vizora.Infrastructure/Vizora.Infrastructure.csproj" /></ItemGroup>
+</Project>
